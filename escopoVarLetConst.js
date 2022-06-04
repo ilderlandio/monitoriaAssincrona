@@ -72,7 +72,7 @@ console.log("Tipo LET possui três escopos possíveis: Escobo Global, Escopo de 
 
 /*
 {  // Cria um bloco simples 
-    let salario = 2700;  // variável com escopo local do bloco, acesível apenas dentro do bloco 
+    let salario = 2700;  // variável com escopo local do bloco, acessível apenas dentro do bloco 
 } // finaliza o bloco 
 
 console.log(salario); // Tentiva de acessar a variavel fora do bloco que ela foi criada
@@ -122,15 +122,25 @@ function quadrado2(num2){
 
 console.log(quadrado2(5)); // chama a função e passa o número 5 como parâmetro | Funciona | Resultado = 25 
 
+/* Redefinição de variáveis usando o LET não é permitido */
+
+/* let linguagem = "JavaScript"; // Cria uma varíavel Global com LET e atribui um valor
+    
+//     linguagem = "Python"; // atribuiçao de novo valor a variável - ok 
+    
+ let linguagem = "C#"; // Operação não permitida Erro: Cannot redeclare block-scoped variable 'linguagem'.
+ */
+
 /* Resumo: Sobre o tipo LET
  Possui três escopos: De Bloco(Simples ou de uma outra estrutura), de Função e Global
  Se a variável for definida com o LET fora de qualquer função ou bloco, ela possui escopo Global 
  Se for definida dentro de algum bloco, ela possui escopo daquele bloco
  Se for definida dentro de uma função, é acessível apenas dentro daquela função
+ Não é possível redefinir uma variável usando o tipo LET
 */
 
 
-console.log("Escopo do tipo CONST(caontante)"); 
+console.log("Escopo do tipo CONST(constante)"); 
 
 /* As contantes criadas com o CONST, além de serem constantes elas possuem regras de escopo iguais ao tipo LET, global, local e de função */
 
