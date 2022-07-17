@@ -5,16 +5,16 @@ Recomendo retirar os comentários, testar para verificar o erro e depois comenta
 Obs: Este código foi testado e executado pelo interpretador do JavaScript do NODE JS, mas deve funcionar em qualquer ambiente de execução do JS
 */
 
-// A maneira mais básica de criar uma função é usando a sintaxe chamada de Função clássica | Literal ou Declaração de função abaixo
+// A maneira mais básica de criar uma função é usando a sintaxe chamada de Função clássica | Literal ou Declaração de função, confira abaixo
 
 function calDobro(a){
     return `Dobro do valor é: ${2 * a}`; // Obs: essa sintaxe é uma alternativa para concatenar (juntar) váriáveis e string, chamada de template string
     } 	
   console.log(calDobro(5)); // Output: Dobro do valor é: 10
 
-  // Perceba o uso da palavra reservada 'return' dentro da função, sempre que usada significa que a funçao deve retornar um valor, quando chamada
+  // Perceba o uso da palavra reservada 'return' dentro da função, sempre que usada significa que a funçao deve retornar um valor quando chamada
 
-  // É possível escrever uma função sem ela retornar um valor, neste caso, geralmente é chamada de procedimento
+  // É possível escrever uma função sem ela retornar um valor, neste caso, se trata de um procedimento
   function quadrado(num){
     let Quad = num * num; 
     console.log(Quad); // Output: 25 | não retorna valor, é procedimento
@@ -87,6 +87,6 @@ console.log(semParam()); // Output: Olá!
 let mult3 = n => `Dobro do parâmetro: ${2 * n}`;
 console.log(mult3(6));  // Output: Dobro do parâmetro: 12
 
-// Outro exemplo com aénas um parâmetro de só uma linha
+// Outro exemplo com apenas um parâmetro e só uma linha
 let myFunction = x => x * 2
 console.log(myFunction(5)); // Output: 10
