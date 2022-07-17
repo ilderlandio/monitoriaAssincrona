@@ -57,6 +57,16 @@ const operacaoSoma = function(a,b){
 }
 console.log(operacaoSoma(3,5)); // Output: Soma dos parâmetros é: 8
 
+// É possível passar uma outra função como parâmetro
+const soma = function(x,y){ // função que executa uma soma 
+    return x + y; 
+} 
+const mostrarResult = function(a,b,operacao = soma){ // função que recebe a função anterior através do parâmetro operação
+    console.log(operacao(a,b));
+}
+mostrarResult(15,35); // // Output: 50
+
+
 // Arrow Function (funções de seta) as novas atualizações do JavaScript permitem o uso da sintaxe abaixo para criar funções
 //obs: Arrow Function é uma função anônima
 let media = (n1,n2) => {
