@@ -1,6 +1,6 @@
 /* 
 Nota: Este arquivo trata sobre o escopo dos tipos de variáveis em JavaScript criadas com VAR e LET e constantes definidas com o CONST
-Algumas partes do código são feitas para gerar erros de propósito, e portanto, para testar os próximos exemplos estes blocos de código foram comentados. 
+Algumas partes do código são feitas para gerar erros de propósito, portanto, para testar os próximos exemplos estes blocos de código foram comentados. 
 Recomendo retirar os comentários, testar para verificar o erro e depois comentar novamente para executar os exemplos seguintes. 
 
 Obs: Este código foi testado e executado pelo interpretador do JavaScript do NODE JS, mas deve funcionar em qualquer ambiente de execução do JS
