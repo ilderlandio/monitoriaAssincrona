@@ -83,7 +83,7 @@ console.log(media(9,8)); // Output: Média: 8.5
 console.log(semParam()); // Output: Olá! 
 
 // Se tiver só um parâmetro, não é obrigado os parênteses () 
-// Se o corpo possuir só uma linha não é obrigatório as chaves {} e o return também é implícito
+// Se o corpo da função possuir só uma linha não é obrigatório as chaves {} e o return também é implícito
 let mult3 = n => `Dobro do parâmetro: ${2 * n}`;
 console.log(mult3(6));  // Output: Dobro do parâmetro: 12
 

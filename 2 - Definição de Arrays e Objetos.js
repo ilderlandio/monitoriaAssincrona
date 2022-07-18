@@ -1,7 +1,7 @@
 
 /* 
-Nota: Este arquivo trata sobre os tipos Arrays e Objeto do JavaScript, a parte básica
-Algumas partes do código são feitas para gerar erros de propósito, e portanto, para testar os próximos exemplos estes blocos de código foram comentados. 
+Nota: Este arquivo trata sobre os tipos Arrays e Objetos do JavaScript, a parte básica
+Algumas partes do código são feitas para gerar erros de propósito, portanto, para testar os próximos exemplos estes blocos de código foram comentados. 
 Recomendo retirar os comentários, testar para verificar o erro e depois comentar novamente para executar os exemplos seguintes. 
 Obs: Este código foi testado e executado pelo interpretador do JavaScript do NODE JS, mas deve funcionar em qualquer ambiente de execução do JS
 */ 

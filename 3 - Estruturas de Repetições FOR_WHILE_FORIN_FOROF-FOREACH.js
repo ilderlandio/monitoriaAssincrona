@@ -1,6 +1,6 @@
 /* 
 Nota: Este arquivo mostra como usar as principais estruturas de repetição da linguagem JavaScipt: FOR, WHILE, FOR IN, FOR OF e FOREACH
-Algumas partes do código são feitas para gerar erros de propósito, e portanto, para testar os próximos exemplos estes blocos de código foram comentados. 
+Algumas partes do código são feitas para gerar erros de propósito, portanto, para testar os próximos exemplos estes blocos de código foram comentados. 
 Recomendo retirar os comentários, testar para verificar o erro e depois comentar novamente para executar os exemplos seguintes. 
 Obs: Este código foi testado e executado pelo interpretador do JavaScript o NODE JS, mas deve funcionar em qualquer ambiente de execução do JS
 */
